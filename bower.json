@@ -1,0 +1,22 @@
+{
+  "name": "PixelHolder-jQuery",
+  "version": "0.1.0",
+  "authors": [
+    "Christopher Dingli <cldingli@gmail.com>"
+  ],
+  "description": "Simple placeholder images based off PixelHolder-RubyGem",
+  "license": "MIT",
+  "keywords": [
+    "placeholder",
+    "image",
+    "generator",
+    "pixelholder"
+  ],
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0"
+  }
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample PixelHolder-jQuery Implementation</title>
+    <style>
+      i.pixelholder {
+        float: left;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <i class="pixelholder" data-width="300" data-height="600">PixelHolder</i>
+    <i class="pixelholder" data-width="300" data-height="600" data-gradientstart="#09c" data-gradientend="#f00">Makes</i>
+    <i class="pixelholder" data-width="300" data-height="600" data-background="#9c0">Great</i>
+    <i class="pixelholder" data-width="300" data-height="600" data-gradientstart="#09c">Placeholders!</i>
+    <i class="pixelholder" data-width="300" data-height="600" data-background="#c09" data-showdimensions="true"></i>
+
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../dist/pixelholder-jquery.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".pixelholder").pixelholder({
+
+        });
+      });
+    </script>
+  </body>
+</html>
